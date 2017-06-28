@@ -162,14 +162,75 @@ footer img{
   }
 }
 
-/* phone*
+/*between*/
 @media only screen and (max-width: 700px){
-  .truncated-menu li{
+  .truncated-menu{
     display: block;
   }
 
-  .menu li{
+  .no-display{
     display: none;
   }
+}
+
+/*phone*/
+@media only screen and (max-width: 560px){
+  header{
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  header div span{
+    display: none;
+  }
+
+  .main-banner{
+    padding: 0 1rem;
+    margin: 9rem auto 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-banner h1{
+    font-size: 1rem;
+  }
+
+  .supporting{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+
+  .logo{
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+  }
+
+  .info{
+    width: auto;
+  }
+
+  .info .title{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .info p{
+    padding: 1rem;
+    font-size: 0.77rem;
+  }
+
+  footer{
+    justify-content: center;
+  }
+
+  footer div{
+    display: none;
+  }
+
+
 
 }
